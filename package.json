@@ -1,0 +1,31 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "A simple user registration and search API using Node.js and PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "user",
+    "registration",
+    "search",
+    "postgresql"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3",
+    "pg": "^8.12.0"
+  }
+}
